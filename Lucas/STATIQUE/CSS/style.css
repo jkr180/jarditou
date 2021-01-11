@@ -1,0 +1,66 @@
+.navtop {
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+  
+}
+
+
+.navbottom {
+    background-color: black;
+    padding: 5px;
+    margin-top: 5px;
+   }
+
+
+
+li{
+    display: inline;
+}
+.colonnedroite{
+    width: 300px;
+    height: 400px;
+    padding: 1em 1em 1em 1em;
+    background-color: rgb(185, 185, 185);
+    order:1
+}
+ 
+.corp{
+    display: flex;
+}
+
+
+.text{
+    flex-direction: column;
+}
+    
+
+a{
+    color: white;
+}
+
+.Toutlejardin{
+    display: flex;
+    justify-content:center;
+
+}
+
+
+
+@media screen and (max-width: 768px) 
+{ 
+    body { 
+        font-size : 1.2rem; 
+    } 
+
+.colonnedroite {
+    display: none;
+}
+.navtop>ul>li {
+    display: block;
+}
+}    
+
+
+
+
